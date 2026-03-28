@@ -1,0 +1,40 @@
+{
+  "name": "portgrim",
+  "version": "0.1.0",
+  "description": "CLI to list and stop local processes by port",
+  "type": "module",
+  "bin": {
+    "portgrim": "./bin/portgrim.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "node --check bin/portgrim.js && node --check src/index.js && node --check src/ports.js && node --check src/ui.js",
+    "prepare": "node bin/portgrim.js --help"
+  },
+  "keywords": [
+    "port",
+    "process",
+    "kill-port",
+    "cli",
+    "developer-tools"
+  ],
+  "author": "Milyn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milyndsilvadev-pixel/portgrim.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milyndsilvadev-pixel/portgrim/issues"
+  },
+  "homepage": "https://github.com/milyndsilvadev-pixel/portgrim#readme"
+}
