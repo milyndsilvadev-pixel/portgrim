@@ -4,7 +4,7 @@
   "description": "CLI to list and stop local processes by port",
   "type": "module",
   "bin": {
-    "portgrim": "./bin/portgrim.js"
+    "portgrim": "bin/portgrim.js"
   },
   "files": [
     "bin",
